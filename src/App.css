@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav--image{
+  max-width: 100;
+}
+.hero--image{
+  /* width:fit-content; */
+  max-width: 400px;
+  align-self: center;
+}
+.hero{
+  padding: 20px;
   display: flex;
   flex-direction: column;
+}
+.hero--h{
+  margin-bottom: 20px;
+}
+.hero--text{
+  margin-top: 0;
+}
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  overflow-x: auto;
+}
+
+.card {
+  width: 12rem;
+  font-size: 14px;
+  display: flex;          /* ADD */
+  flex: 0 0 auto;         /* ADD */
+  flex-direction: column; /* ADD */
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card--star {
+  height: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ADD */
+.card--price {
+  margin-top: auto;
+}
+.card--img{
+  margin-top: 1rem;
+  border-radius: 1rem;
+  height: 18rem;
+  width: 13rem;
 }
