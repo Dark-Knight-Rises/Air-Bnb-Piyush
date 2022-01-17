@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        title: "Let's go on a ride!",
+        title: "Let's go for a ride!",
         description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
         price: '12,000',
         coverImg: 'images/ride.jpg',
@@ -79,7 +79,7 @@ export default [
     },
     {
         id: 5,
-        title: "Learn the art of making Mojitos",
+        title: "Learn the art of making Mojitos 🍸",
         description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
         price: 600,
         coverImg: 'images/mohito.jpg',
@@ -92,7 +92,7 @@ export default [
     },
     {
         id: 6,
-        title: "Let's go Paragliding in France",
+        title: "Let's go Paragliding in France 🪂",
         description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
         price: '7.5L',
         coverImg: 'images/para.jpg',
